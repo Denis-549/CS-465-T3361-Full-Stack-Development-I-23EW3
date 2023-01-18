@@ -1,6 +1,6 @@
-var express = require('express');
-var router = express.Router();
-var ctrMain = require('../controllers/main');
+const express = require('express');
+const router = express.Router();
+const ctrlMain = require('../controllers/main');
 
 
 /* GET home page. */

@@ -1,9 +1,7 @@
-var express = require('express');
-var router = express.Router();
-
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
-
-module.exports = router;
+/* GET travel view */
+const travel = (req, res) => {
+  res.render('travel', { title: 'Travlr Getaways' });
+ };
+ module.exports = {
+  travel
+ };
