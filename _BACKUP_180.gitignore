@@ -59,11 +59,24 @@ typings/
 
 # next.js build output
 .next
+<<<<<<< HEAD
 
 # Visual Studio Code working files 
+=======
+>>>>>>> 7681994a083b3caa4c31cfae936640c398ba4ad9
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+<<<<<<< HEAD
 *.code-workspace
+=======
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+>>>>>>> 7681994a083b3caa4c31cfae936640c398ba4ad9
